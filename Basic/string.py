@@ -120,3 +120,10 @@ x=5
 x**=3
 print(x)
 
+#--------input fron console----------------#
+y=input("enter the name : ")
+x=int(input("enter the value of x : "))  # converted to string by default it is string type
+print("value of x is :",x)
+print("Tyoe of x is",type(x))
+print("My name is :"+y)
+print("Tyoe of y is",type(y))
