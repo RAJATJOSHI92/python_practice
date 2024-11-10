@@ -68,6 +68,7 @@ print(s.upper())
 print(s.lower())
 print(s.replace("r","R"))
 print(s.split(","))
+print(s[0])
 print(s.strip())
 
 
