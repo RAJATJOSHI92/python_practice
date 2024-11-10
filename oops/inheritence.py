@@ -58,17 +58,17 @@ obj1.show1()
 
 #--------------adding prperties--------
 class A:
-    def __init__(self,a,b):
-        self.a=a
+    def __init__(self,aa,b):
+        self.a=aa
         self.b=b
     def show(self):
         print(self.a,self.b)
 class B(A):
-    def __init__(self,a,b,c):
-        self.a=a
+    def __init__(self ,ab,b,c):
+        self.a=ab
         self.b=b
         self.c=c
-        super().__init__(a,b)
+        super().__init__(ab,b)
 
 
     def show1(self):
